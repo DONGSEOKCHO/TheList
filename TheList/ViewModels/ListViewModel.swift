@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+class ListViewModel: ObservableObject{
+    //@Published var theList = ["Camping",
+                                //"Groceries",
+                                //"Fashion"]
+
+    //init(){}
+}
