@@ -8,8 +8,44 @@
 import SwiftUI
 
 struct ItemListView: View {
+    @StateObject var viewModel = ItemListViewModel()
+   
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+       
+            VStack {
+                List {
+                    
+                    ItemDetailView()
+                        .swipeActions {
+                            Button("Delete") {
+                                viewModel.delete()
+                                
+                            }
+                            .tint(Color.red)
+                        }
+                    
+                }
+                
+                
+                .listStyle(PlainListStyle())
+            }
+            .navigationTitle(Text("List Name"))
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .primaryAction){
+                    
+                        Button {
+                        //Action
+                    } label: {
+                        Image(systemName: "plus")
+                    }
+                    
+                }
+            }
+            
+        
+        
     }
 }
 

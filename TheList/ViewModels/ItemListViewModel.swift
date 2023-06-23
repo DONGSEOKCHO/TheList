@@ -6,3 +6,17 @@
 //
 
 import Foundation
+
+
+class ItemListViewModel: ObservableObject {
+    
+    init() {
+        
+    }
+    
+    /// Delete todo list item
+    /// - Parameter id: item id to delete
+    func delete() {
+        
+    }
+}
