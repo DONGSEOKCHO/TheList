@@ -9,14 +9,19 @@ import SwiftUI
 
 struct ItemListView: View {
     @StateObject var viewModel = ItemListViewModel()
-   
+    
+    @State var itemModels: [ItemListModel] = []
+    
+    @State private var isClicked = false
+    @State var description: String = ""
+    @State var quantity: Int = 0
     
     var body: some View {
        
             VStack {
-                List {
+                List(self.itemModels) { (model) in
                     
-                    ItemDetailView()
+                    ItemDetailView(description: model.description, quantity: model.quantity)
                         .swipeActions {
                             Button("Delete") {
                                 viewModel.delete()
@@ -24,19 +29,28 @@ struct ItemListView: View {
                             }
                             .tint(Color.red)
                         }
+                    if isClicked == true {
+                        ItemAddView()
+                        
+                    }
+                    
                     
                 }
                 
                 
                 .listStyle(PlainListStyle())
             }
+            .onAppear(perform: {
+                self.itemModels = ItemListViewDB().getItems()
+            })
             .navigationTitle(Text("List Name"))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .primaryAction){
                     
-                        Button {
+                    Button {
                         //Action
+                        isClicked = true
                     } label: {
                         Image(systemName: "plus")
                     }
@@ -47,6 +61,7 @@ struct ItemListView: View {
         
         
     }
+   
 }
 
 struct ItemListView_Previews: PreviewProvider {
