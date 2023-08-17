@@ -11,7 +11,6 @@
 		D57CE1CB2A43EC9F00018217 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57CE1CA2A43EC9F00018217 /* ListViewModel.swift */; };
 		D57CE1CD2A43ECBE00018217 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57CE1CC2A43ECBE00018217 /* ListView.swift */; };
 		E53F53032A867BDE00F46950 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E53F53022A867BDE00F46950 /* libsqlite3.tbd */; };
-		E53F53062A8C6CCC00F46950 /* ItemListViewDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53F53052A8C6CCC00F46950 /* ItemListViewDB.swift */; };
 		E550B8832A8D3347002F2E5C /* ItemAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550B8822A8D3347002F2E5C /* ItemAddView.swift */; };
 		E58B1BC12A455CA100319749 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58B1BC02A455CA100319749 /* ItemDetailView.swift */; };
 		E58B1BC32A455CB800319749 /* ItemDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58B1BC22A455CB800319749 /* ItemDetailViewModel.swift */; };
@@ -35,7 +34,6 @@
 		D57CE1CA2A43EC9F00018217 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		D57CE1CC2A43ECBE00018217 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		E53F53022A867BDE00F46950 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		E53F53052A8C6CCC00F46950 /* ItemListViewDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewDB.swift; sourceTree = "<group>"; };
 		E550B8822A8D3347002F2E5C /* ItemAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemAddView.swift; sourceTree = "<group>"; };
 		E58B1BC02A455CA100319749 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
 		E58B1BC22A455CB800319749 /* ItemDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewModel.swift; sourceTree = "<group>"; };
@@ -84,14 +82,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E53F53042A8C6C9000F46950 /* DB_Manager */ = {
-			isa = PBXGroup;
-			children = (
-				E53F53052A8C6CCC00F46950 /* ItemListViewDB.swift */,
-			);
-			path = DB_Manager;
-			sourceTree = "<group>";
-		};
 		E5B984102A25973300E301FA = {
 			isa = PBXGroup;
 			children = (
@@ -113,7 +103,6 @@
 		E5B9841B2A25973300E301FA /* TheList */ = {
 			isa = PBXGroup;
 			children = (
-				E53F53042A8C6C9000F46950 /* DB_Manager */,
 				E5B984752A2A812600E301FA /* Other */,
 				E5B984782A2A816800E301FA /* Models */,
 				E5B984772A2A815B00E301FA /* ViewModels */,
@@ -292,7 +281,6 @@
 				E5B9847E2A2A82C800E301FA /* MainViewModel.swift in Sources */,
 				E5B984812A2A82ED00E301FA /* ItemListViewModel.swift in Sources */,
 				D57CE1CD2A43ECBE00018217 /* ListView.swift in Sources */,
-				E53F53062A8C6CCC00F46950 /* ItemListViewDB.swift in Sources */,
 				E58B1BC12A455CA100319749 /* ItemDetailView.swift in Sources */,
 				E550B8832A8D3347002F2E5C /* ItemAddView.swift in Sources */,
 				E5B9847C2A2A828800E301FA /* ItemListModel.swift in Sources */,

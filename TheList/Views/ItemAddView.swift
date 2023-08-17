@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ItemAddView: View {
+    @StateObject var viewModel = ItemListViewModel()
+    
     @State private var isChecked = false
     
     @State var description: String = ""
@@ -39,7 +41,7 @@ struct ItemAddView: View {
                 
                 Button(action: {
                     
-                    ItemListViewDB().addItem(descriptionValue: self.description, quantityValue: Int(self.quantity) ?? 1)
+                    viewModel.addItem(descriptionValue: self.description, quantityValue: Int(self.quantity) ?? 1)
                     
                     // go back
                     self.mode.wrappedValue.dismiss()

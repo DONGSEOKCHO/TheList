@@ -19,6 +19,7 @@ struct ItemListView: View {
     var body: some View {
        
             VStack {
+                
                 List(self.itemModels) { (model) in
                     
                     ItemDetailView(description: model.description, quantity: model.quantity)
@@ -29,19 +30,18 @@ struct ItemListView: View {
                             }
                             .tint(Color.red)
                         }
-                    if isClicked == true {
-                        ItemAddView()
-                        
-                    }
+                    
                     
                     
                 }
-                
-                
                 .listStyle(PlainListStyle())
+                if isClicked == true {
+                    ItemAddView()
+                    
+                }
             }
             .onAppear(perform: {
-                self.itemModels = ItemListViewDB().getItems()
+                self.itemModels = viewModel.getItems()
             })
             .navigationTitle(Text("List Name"))
             .navigationBarTitleDisplayMode(.inline)
