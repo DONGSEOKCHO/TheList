@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7AE2B89F-B47B-45BC-98B2-A7858892F1A9"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6606F26F-1AB4-40DA-AEF5-A3C9CE15DCE6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TheList/ViewModels/ItemListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ItemListViewModel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "6606F26F-1AB4-40DA-AEF5-A3C9CE15DCE6 - 741091f0e2a625f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TheList.ItemListViewModel.deinit"
+                  moduleName = "TheList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serahan/Documents/Projects/TheList/TheList/TheList/ViewModels/ItemListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "6606F26F-1AB4-40DA-AEF5-A3C9CE15DCE6 - c24b77e566025ec7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TheList.ItemListViewModel.__deallocating_deinit"
+                  moduleName = "TheList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serahan/Documents/Projects/TheList/TheList/TheList/ViewModels/ItemListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D659ED3-C524-4990-B72F-659C3D3E350C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TheList/DB_Manager/ItemListViewDB.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "getItems()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9D659ED3-C524-4990-B72F-659C3D3E350C - 9abdc46855479f56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TheList.ItemListViewDB.getItems() -&gt; Swift.Array&lt;TheList.ItemListModel&gt;"
+                  moduleName = "TheList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serahan/Documents/Projects/TheList/TheList/TheList/DB_Manager/ItemListViewDB.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "2516">
+               </Location>
+               <Location
+                  uuid = "9D659ED3-C524-4990-B72F-659C3D3E350C - 9abdc46855479f77"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TheList.ItemListViewDB.getItems() -&gt; Swift.Array&lt;TheList.ItemListModel&gt;"
+                  moduleName = "TheList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serahan/Documents/Projects/TheList/TheList/TheList/DB_Manager/ItemListViewDB.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "2344">
+               </Location>
+               <Location
+                  uuid = "9D659ED3-C524-4990-B72F-659C3D3E350C - 9abdc46855479f77"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TheList.ItemListViewDB.getItems() -&gt; Swift.Array&lt;TheList.ItemListModel&gt;"
+                  moduleName = "TheList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serahan/Documents/Projects/TheList/TheList/TheList/DB_Manager/ItemListViewDB.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "2324">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91F9BECE-F1B1-4201-9EE0-265D1B2D5280"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TheList/DB_Manager/ItemListViewDB.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "getItems()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "91F9BECE-F1B1-4201-9EE0-265D1B2D5280 - 9abdc46855479f56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TheList.ItemListViewDB.getItems() -&gt; Swift.Array&lt;TheList.ItemListModel&gt;"
+                  moduleName = "TheList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serahan/Documents/Projects/TheList/TheList/TheList/DB_Manager/ItemListViewDB.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "2516">
+               </Location>
+               <Location
+                  uuid = "91F9BECE-F1B1-4201-9EE0-265D1B2D5280 - 9abdc46855479f56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TheList.ItemListViewDB.getItems() -&gt; Swift.Array&lt;TheList.ItemListModel&gt;"
+                  moduleName = "TheList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serahan/Documents/Projects/TheList/TheList/TheList/DB_Manager/ItemListViewDB.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "3812">
+               </Location>
+               <Location
+                  uuid = "91F9BECE-F1B1-4201-9EE0-265D1B2D5280 - 9abdc46855479f56"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TheList.ItemListViewDB.getItems() -&gt; Swift.Array&lt;TheList.ItemListModel&gt;"
+                  moduleName = "TheList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/serahan/Documents/Projects/TheList/TheList/TheList/DB_Manager/ItemListViewDB.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "3804">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "76FB09E7-E414-44B7-B14B-DA1B3128278F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TheList/Views/ItemListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

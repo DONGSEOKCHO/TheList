@@ -12,8 +12,11 @@ struct ItemDetailView: View {
     
     @State private var isChecked = false
     
+    let description: String
+    let quantity: Int
+    
     var body: some View {
-        HStack(spacing: 30) {
+        HStack(spacing: 40) {
             VStack(alignment: .leading) {
                 Button {
                     //action
@@ -24,23 +27,27 @@ struct ItemDetailView: View {
                 
             }
             
-            HStack(spacing: 100){
-                Text("Hello World")
+            HStack(spacing: 50){
+                Text(description)
                     .font(.body)
                 
+                Divider()
+                    .frame(height:20)
+                    .overlay(.blue)
                 
-                Text("5")
+                Text("\(quantity)")
             }
             
             
         }
+        
     }
 
 }
 
 struct ItemDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        ItemDetailView()
+        ItemDetailView(description: "Item", quantity: 1)
     }
 }
 
