@@ -10,6 +10,7 @@
 		45928F025C830D8F844DF6D3 /* Pods_TheList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0768218EE8E51C48DAFA6DB7 /* Pods_TheList.framework */; };
 		D57CE1CB2A43EC9F00018217 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57CE1CA2A43EC9F00018217 /* ListViewModel.swift */; };
 		D57CE1CD2A43ECBE00018217 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57CE1CC2A43ECBE00018217 /* ListView.swift */; };
+		D5D6CFBA2A990225002EC6F4 /* CategoryListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D6CFB92A990225002EC6F4 /* CategoryListModel.swift */; };
 		E53F53032A867BDE00F46950 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E53F53022A867BDE00F46950 /* libsqlite3.tbd */; };
 		E550B8832A8D3347002F2E5C /* ItemAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550B8822A8D3347002F2E5C /* ItemAddView.swift */; };
 		E58B1BC12A455CA100319749 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58B1BC02A455CA100319749 /* ItemDetailView.swift */; };
@@ -24,7 +25,6 @@
 		E5B984812A2A82ED00E301FA /* ItemListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B984802A2A82ED00E301FA /* ItemListViewModel.swift */; };
 		E5B984832A2A831500E301FA /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B984822A2A831500E301FA /* LoadingView.swift */; };
 		E5B984852A2A832500E301FA /* LoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B984842A2A832500E301FA /* LoadingViewModel.swift */; };
-		E5C1AEC22A4796C600C21761 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5C1AEC12A4796C500C21761 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +33,7 @@
 		37B5A1F45861AD179D3715A6 /* Pods-TheList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheList.debug.xcconfig"; path = "Target Support Files/Pods-TheList/Pods-TheList.debug.xcconfig"; sourceTree = "<group>"; };
 		D57CE1CA2A43EC9F00018217 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		D57CE1CC2A43ECBE00018217 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		D5D6CFB92A990225002EC6F4 /* CategoryListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListModel.swift; sourceTree = "<group>"; };
 		E53F53022A867BDE00F46950 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		E550B8822A8D3347002F2E5C /* ItemAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemAddView.swift; sourceTree = "<group>"; };
 		E58B1BC02A455CA100319749 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
@@ -48,7 +49,6 @@
 		E5B984802A2A82ED00E301FA /* ItemListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListViewModel.swift; sourceTree = "<group>"; };
 		E5B984822A2A831500E301FA /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		E5B984842A2A832500E301FA /* LoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewModel.swift; sourceTree = "<group>"; };
-		E5C1AEC12A4796C500C21761 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +123,6 @@
 		E5B984752A2A812600E301FA /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				E5C1AEC12A4796C500C21761 /* GoogleService-Info.plist */,
 				E5B984202A25973500E301FA /* Assets.xcassets */,
 				E5B9841C2A25973300E301FA /* TheListApp.swift */,
 			);
@@ -159,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				E5B9847B2A2A828800E301FA /* ItemListModel.swift */,
+				D5D6CFB92A990225002EC6F4 /* CategoryListModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -225,7 +225,6 @@
 			files = (
 				E5B984242A25973500E301FA /* Preview Assets.xcassets in Resources */,
 				E5B984212A25973500E301FA /* Assets.xcassets in Resources */,
-				E5C1AEC22A4796C600C21761 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5B9847E2A2A82C800E301FA /* MainViewModel.swift in Sources */,
+				D5D6CFBA2A990225002EC6F4 /* CategoryListModel.swift in Sources */,
 				E5B984812A2A82ED00E301FA /* ItemListViewModel.swift in Sources */,
 				D57CE1CD2A43ECBE00018217 /* ListView.swift in Sources */,
 				E58B1BC12A455CA100319749 /* ItemDetailView.swift in Sources */,
